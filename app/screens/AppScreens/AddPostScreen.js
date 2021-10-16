@@ -171,7 +171,7 @@ export default function AddPostScreen({ route }) {
           fontSize={16}
           numberOfLines={3}
           value={caption}
-          onChangeText={(text) => onChangeText(text)}
+          onChangeText={(text) => setCaption(text)}
           placeholder="Write a caption"
         />
       </View>
